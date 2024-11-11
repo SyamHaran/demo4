@@ -1,20 +1,30 @@
 
-import React from 'react';
+import React, { useState } from "react";
 import '../styles/Home.css'
-
-function Home() {
-  return (
-    <>
-    <div className="content">
-      <h2>Welcome to the Home Page</h2>
-     
-      
-      <button className='x'>Click</button>
-    </div>
-
+function Home(){
     
-   </>
-  );
-}
+       
+        const [count,setCount]=useState(0);
+    const increment=()=>{
+        setCount(count+1)
+       
+        
+    };
+    const decrement=()=>{
+        setCount(count-1)
+    }
 
+    return(
+        <div>
+         <h2>counter</h2>
+        <p>{count}</p>
+        <button onClick={increment}>increment</button>
+        <button onClick={decrement}>decrement</button>
+        </div>
+    );
+
+
+
+       
+}
 export default Home;
