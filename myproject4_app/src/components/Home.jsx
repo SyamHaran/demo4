@@ -17,7 +17,7 @@ function Home(){
     return(
         <div>
          <h2>counter</h2>
-        <p>{count}</p>
+        <h3>{count}</h3>
         <button onClick={increment}>increment</button>
         <button onClick={decrement}>decrement</button>
         </div>

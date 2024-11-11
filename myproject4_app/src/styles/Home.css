@@ -5,10 +5,13 @@
   h2 {
     color: #1100ff;
   }
+  h3{
+    color: aquamarine;
+  }
   button{
    
-    color: #ff0303;
-    background-color: rgb(0, 255, 242);
-    border: 2px solid #2bff00;
+    color: #d503ff;
+    background-color: rgb(255, 123, 0);
+    border: 2px solid #0008ff;
     
   }
